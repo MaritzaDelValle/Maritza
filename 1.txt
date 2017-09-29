@@ -1,0 +1,48 @@
+*
+git status
+git commit -m "version inicial"
+git add -A // agregar los archivos
+
+*
+git remote add origin
+git config global user name ""
+git config global user email
+git push origen master
+*
+buscar boton verde
+dar click en clonar o descargar
+copiar link
+pegar en la linea de comandos
+*
+para checar: git remote -v //ver repositorios remotos
+
+git pull "nombre del repositor" master //obtiene archivos del repositor
+
+git log //muestra historial de commits
+
+git reset --hard "pegar cadena "// obtiene un commit especifico 
+
+*
+1 agregar un achivo "".html
+
+2 actualizar local repo
+
+3 actualiza remote repo
+
+4 obtener version inicial
+
+5 regresar version final 
+
+
+*2/sep/2017
+BRACH
+git brach<"nombre de la rama"//nueva rama
+""  branch  //listar ramas locales
+""  ""  -a //mostras todas las ramas
+""  "" -r //muestra las ramas remotas
+
+
+"" checkout <nombre>// cambiar de rama
+"" checkout master 
+"" push <link> <rama>//agregar la nueva rama al repositorio remoto
+"" merge <commit>
